@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F4F0EA;
+    color: black;
+    font-family:"Cabin Sketch",sans-serif;
+    font-weight: 400;    
+}
+
+header{
+
+    background-image:url(assets/destaque-reforma-protestante.jpg);
+    background-size: cover;
+    text-align: center;
+    border: none;
+    color: whitesmoke;
+    background-color: brown;
+    padding: 20px;
+    background-position: center;
+}
+
+h2 {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+img{
+    width: 10rem;
+    align-content: center;
+    text-align: center;
+    margin: 0;
+}
+.parte-class{
+    text-align: center;
+    justify-content: center;
+    image-orientation:flip;
+    border: 0.1rem solid black;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+fieldset{
+    background-color:blanchedalmond;
+    border-radius: 5px;
+}
+
+select {
+    background-color: black;
+    color: beige;
+}
+
+footer{
+    text-align: center;
+    border: 0.1rem solid black;
+    border-radius: 1px;
+    background-color: beige;
+    padding: 5px;
+}
+
+
+
+
